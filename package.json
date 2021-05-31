@@ -1,0 +1,31 @@
+{
+  "name": "webpage-templater",
+  "version": "1.0.3",
+  "description": "Build static webpage files fast.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "İlter",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "fs": "^0.0.1-security"
+  },
+  "bin": {
+    "webpage--help": "./lib/help.js",
+    "webpage-create-html5": "./lib/templates/html5/html5.js",
+    "webpage-create-htmldiv": "./lib/templates/htmldiv/htmldiv.js"
+  },
+  "keywords": [
+    "html",
+    "templater",
+    "html5",
+    "cli",
+    "front-end"
+  ]
+}
